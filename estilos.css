@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Sans-serif;
+	background: #1c2879;
+	color: #cf3636;
+}
+
+.contenedor {
+	width: 300px;
+	margin: 20px auto;
+	background: #0e2052;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+form p {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+input[type="number"]{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 15px;
+	text-align: center;
+	font-size: 15px;
+}
+
+form .btn {
+	width: 100%;
+	color: #fff;
+	border:none;
+	cursor: pointer;
+	font-size: 16px;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+	text-decoration: none;
+    margin-bottom: 20px;
+}
+.lim{
+	background: #3f810a;
+	border-radius: 20px;
+}
+.lim:hover{
+	color: #3f810a;
+	background: #eee5e9;
+}
+
+.navegacion{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav{
+	background: #0e1a53;
+	margin: 20px 20px;
+	width: auto;
+	padding: 5px;
+	border-radius: 6px;
+	color: #eee5e9;
+	cursor: pointer;
+}
+.nav:hover{
+	background: #eee5e9;
+	color: #3652cf;
+}
+#signo{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 30px;
+	color: #0ead78;
+}

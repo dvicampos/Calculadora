@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div class="navegacion">
+            <button id="sum" class="nav suma" onclick="mostrarSignoPositivo()">SUMA</button>
+            <button id="res" class="nav resta" onclick="mostrarSignoNegativo()">RESTA</button>
+            <button id="multi" class="nav multiplicacion" onclick="mostrarSignoMultiplicacion()">MULTIPLICACION</button>
+            <button id="div" class="nav divicion" onclick="mostrarSignoDivicion()">DIVICION</button>
+    </div>
+    
+    <div class="contenedor">
+        <form action="">
+            <input type="number" id="numero1">
+            <p id="signo"> </p>
+            <input type="number" id="numero2">
+            <p>=</p>
+            <input type="number" id="resultado" readonly>
+            <input type="button" onclick="limpiar()" class="btn lim" value="Limpiar">
+        </form>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>
